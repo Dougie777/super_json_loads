@@ -1,9 +1,5 @@
 # super_json_loads
-super_json_loads is an advanced JSON parsing function for Python, offering an enhanced alternative to the standard json.loads function. It is specifically adept at handling broken JavaScript and JSON strings that span across multiple lines, making it a versatile tool for various complex data parsing scenarios.
-
-Super JSON Loads
-Introduction
-super_json_loads is an advanced JSON parsing function for Python, offering an enhanced alternative to the standard json.loads function. It is specifically adept at handling broken JavaScript and JSON strings that span across multiple lines, making it a versatile tool for various complex data parsing scenarios.
+super_json_loads is an advanced JSON parsing function for Python, offering a drop in replacement for the standard python json.loads function. It is specifically adept at handling broken JavaScript that span across multiple lines, and handles multiple json occurances inside a string combining them into an array and ignoring non-json text.
 
 Features
 Multiple JSON Objects: Efficiently detects and parses multiple JSON objects or arrays embedded within a larger string, including broken JavaScript.
