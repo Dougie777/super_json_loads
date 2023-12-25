@@ -45,9 +45,10 @@ parsed_json = super_json_loads(json_string)
 print(parsed_json)
 
 Result
-[{'text': 'This is a string with a newline character inside the quote'},
- {'text': 'This is a string with an escaped "quote" inside'},
- {'text': 'This is a string with \'single quotes\' and "double quotes" inside'}]
+[{'text': 'This is a string with a newline\n\ncharacter \ninside the quote'}, 
+{'text': 'This is a string with an escaped "qu\note" inside'}, 
+{'text': 'This is a string with \'single quotes\' and "double quotes\n" inside'}]
+
 
 Contributions
 I welcome contributions, issues, and feature requests.
