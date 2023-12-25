@@ -1,4 +1,4 @@
-import json
+mport json
 
 def super_json_loads(text):
     json_objects = []
@@ -6,7 +6,7 @@ def super_json_loads(text):
     end_chars = "}]" 
 
     # Replace all newlines in the text to make it single-line
-    text = text.replace("\n", "")
+    text = text.replace("\n", "\\n")
 
     i = 0
     while i < len(text):
@@ -80,4 +80,3 @@ Some other text
 """
 result = super_json_loads(text_with_json)
 print(result)
-
